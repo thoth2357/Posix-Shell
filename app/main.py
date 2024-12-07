@@ -1,4 +1,5 @@
 import sys
+import os
 
 
 def main():
@@ -6,7 +7,13 @@ def main():
     sys.stdout.write("$ ")
 
     # Wait for user input
-    input()
+    command = input()
+    
+    # implementing the handler to handle invalid commands
+    sys.stdout.write(f"{command}: command not found\n")
+
+    # os.system(command:= input())
+    # if command 
 
 
 if __name__ == "__main__":
