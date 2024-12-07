@@ -8,12 +8,15 @@ def main():
 
     # Wait for user input
     while (command := input("$ ")):
-    
+        
+        if "exit" in command:
+            sys.exit(command.split(" ")[-1])
+            break
+            
         # implementing the handler to handle invalid commands
         sys.stdout.write(f"{command}: command not found\n")
         
         
-
         # os.system(command:= input())
         # if command 
 
