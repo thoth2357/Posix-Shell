@@ -10,7 +10,7 @@ def main():
     while (command := input("$ ")):
         
         if "exit" in command:
-            sys.exit(command.split(" ")[-1])
+            sys.exit(int(command.split(" ")[-1]))
             break
             
         # implementing the handler to handle invalid commands
