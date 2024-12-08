@@ -1,34 +1,36 @@
 [![progress-banner](https://backend.codecrafters.io/progress/shell/f5bcbda2-f393-4560-9d19-b0110db0c16c)](https://app.codecrafters.io/users/codecrafters-bot?r=2qF)
 
-This is a starting point for Python solutions to the
-["Build Your Own Shell" Challenge](https://app.codecrafters.io/courses/shell/overview).
+# Building a POSIX-Compliant Shell from Scratch
 
-In this challenge, you'll build your own POSIX compliant shell that's capable of
-interpreting shell commands, running external programs and builtin commands like
-cd, pwd, echo and more. Along the way, you'll learn about shell command parsing,
-REPLs, builtin commands, and more.
 
-**Note**: If you're viewing this repo on GitHub, head over to
-[codecrafters.io](https://codecrafters.io) to try the challenge.
 
-# Passing the first stage
+## The Challenge
 
-The entry point for your `shell` implementation is in `app/main.py`. Study and
-uncomment the relevant code, and push your changes to pass the first stage:
+As a passionate systems developer, I took on the challenge of building a POSIX-compliant shell from the ground up. This project isn't just about creating another shell – it's about deeply understanding how command interpreters work at their core and having fun.
 
-```sh
-git commit -am "pass 1st stage" # any msg
-git push origin master
-```
+## What I Built
 
-Time to move on to the next stage!
+My implementation includes:
+- A robust command interpreter capable of parsing and executing shell commands
+- Support for external program execution with proper process management
+- Built-in command implementation (cd, pwd, echo, and more)
+- A clean, interactive REPL (Read-Eval-Print Loop) interface
 
-# Stage 2 & beyond
+## Key Learning Points
 
-Note: This section is for stages 2 and beyond.
+Throughout this project, I've gained deep insights into:
+- Shell command parsing and lexical analysis
+- Process creation and management in Unix-like systems
+- Implementation of built-in shell commands
+- REPL design patterns and best practices
 
-1. Ensure you have `python (3.11)` installed locally
-1. Run `./your_program.sh` to run your program, which is implemented in
-   `app/main.py`.
-1. Commit your changes and run `git push origin master` to submit your solution
-   to CodeCrafters. Test output will be streamed to your terminal.
+## Try It Yourself
+
+If you're intrigued by this project and want to tackle a similar challenge, I highly recommend checking out [codecrafters.io](https://codecrafters.io). Their platform provides a structured approach to building complex systems from scratch.
+
+## Technical Details
+
+I'll be adding more information about the implementation details, architectural decisions, and interesting challenges I faced during development. Stay tuned!
+
+---
+*This project is part of my journey to master systems programming and shell implementation. Feel free to reach out if you have questions or want to discuss shell internals!*
